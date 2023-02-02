@@ -1,0 +1,375 @@
+body {
+    background-color: rgb(253, 196, 255);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 60px;
+    margin-left: 50%;
+    position: absolute;
+    line-height: 92px;
+    z-index: 1;
+    color: bisque;
+    filter: blur(3px);
+    opacity: 60%;
+}
+
+.line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    z-index: 0;
+}
+
+.line2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    z-index: 0;
+}
+
+.line3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    z-index: 0;
+}
+
+.line4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    z-index: 0;
+}
+
+.line5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    z-index: 0;
+}
+
+.line6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    z-index: 0;
+}
+
+.circle1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    filter: blur(10px);
+}
+
+.circle1:hover {
+    opacity: 20%;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: aqua;
+    }
+    30% {
+        background-color: rgb(255, 177, 88);
+    }
+    60% {
+        background-color: rgb(169, 255, 156);
+    }
+    100% {
+        background-color: rgb(140, 0, 255);
+    }
+}
+
+.circle2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    filter: blur(10px);
+}
+
+.circle2:hover {
+    opacity: 20%;
+}
+
+.circle3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    filter: blur(10px);
+}
+
+.circle3:hover {
+    opacity: 20%;
+}
+
+.circle4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    filter: blur(10px);
+}
+
+.circle4:hover {
+    opacity: 20%;
+}
+
+.circle5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    filter: blur(10px);
+}
+
+.circle5:hover {
+    opacity: 20%;
+}
+
+.circle6{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    filter: blur(10px);
+}
+
+.circle6:hover {
+    opacity: 20%;
+}
+
+.item1 {
+    z-index: 1;
+    border-radius: 50%;
+    margin-top: -10%;
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(146, 71, 238, 0.54);
+    margin-left: 20%;
+    animation-name: circleDrop;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes circleDrop{
+    0% {
+        margin-top: -10%;
+        margin-left: 20%;
+    }
+    100% {
+        margin-top: 110%;
+        margin-left: 40%;
+    }
+
+}
+
+.item2 {
+    z-index: 1;
+    border-radius: 50%;
+    margin-top: -10%;
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(238, 74, 71, 0.61);
+    margin-left: 20%;
+    animation-name: circleDrop2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+}
+
+@keyframes circleDrop2{
+    0% {
+        margin-top: -10%;
+        margin-left: 50%;
+    }
+    100% {
+        margin-top: 110%;
+        margin-left: 10%;
+    }
+
+}
+
+.item3 {
+    z-index: 1;
+    border-radius: 50%;
+    margin-top: -10%;
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 83, 3, 0.485);
+    margin-left: 20%;
+    animation-name: circleDrop3;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+}
+
+@keyframes circleDrop3{
+    0% {
+        margin-top: -10%;
+        margin-left: 90%;
+    }
+    100% {
+        margin-top: 110%;
+        margin-left: 80%;
+    }
+
+}
+
+.item4 {
+    z-index: 1;
+    border-radius: 50%;
+    margin-top: -10%;
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 230, 0, 0.606);
+    margin-left: 20%;
+    animation-name: circleDrop4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 7s;
+}
+
+@keyframes circleDrop4{
+    0% {
+        margin-top: -10%;
+        margin-left: 100%;
+    }
+    100% {
+        margin-top: 110%;
+        margin-left: 20%;
+    }
+
+}
+
+.item5 {
+    z-index: 1;
+    border-radius: 50%;
+    margin-top: -10%;
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 255, 217, 0.684);
+    margin-left: 20%;
+    animation-name: circleDrop5;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+}
+
+@keyframes circleDrop5{
+    0% {
+        margin-top: -10%;
+        margin-left: 10%;
+    }
+    100% {
+        margin-top: 110%;
+        margin-left: 15%;
+    }
+}
+
+.item6 {
+    z-index: 1;
+    border-radius: 50%;
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 0, 166, 0.684);
+    margin-left: 20%;
+    margin-top: -10%;
+    animation-name: circleDrop6;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 10s;
+}
+
+@keyframes circleDrop6{
+    0% {
+        margin-top: -30%;
+        margin-left: 40%;
+    }
+    100% {
+        margin-top: 110%;
+        margin-left: 100%;
+    }
+}
+
+.item7 {
+    z-index: 1;
+    border-radius: 50%;
+    margin-top: -10%;
+    position:absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(200, 7, 7, 0.684);
+    margin-left: 20%;
+    animation-name: circleDrop7;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 12s;
+}
+
+@keyframes circleDrop7{
+    0% {
+        margin-top: -30%;
+        margin-left: 30%;
+    }
+    100% {
+        margin-top: 110%;
+        margin-left: 70%;
+    }
+}
