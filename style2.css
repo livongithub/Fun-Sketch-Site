@@ -1,0 +1,192 @@
+body{
+    background-image: url("sunflower.jpg");
+    font-family: 'Itim', cursive;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 87, 87);
+}
+
+h4 {
+    color:rgb(187, 0, 255);
+    text-align: center;
+}
+
+ul {
+    color: rgb(72, 255, 170);
+    text-align: center;
+}
+
+.shapes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+.shapesBis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+.shapesTris {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+.shape1 {
+    background-image: url("grass.jpg");
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation-name: shapeChange;
+    animation-duration: 1s;
+    animation-name: rotation1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.shape2 {
+    background-image: url("grass.jpg");
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation-name: shapeChange;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shapeChange {
+    0% {
+        border-radius: 50%;
+    }
+    100% {
+        border-radius: 5%;
+    }
+}
+
+.shape3 {
+    background-image: url("grass.jpg");
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation-name: rotation1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.shape4 {
+    background-image: url("grass.jpg");
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation-name: shapeChange;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shapeChange {
+    0% {
+        border-radius: 50%;
+    }
+    100% {
+        border-radius: 5%;
+    }
+}
+
+.shape5 {
+    background-image: url("grass.jpg");
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation-name: rotation1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.shape6 {
+    background-image: url("grass.jpg");
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation-name: shapeChange;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shapeChange {
+    0% {
+        border-radius: 50%;
+    }
+    100% {
+        border-radius: 5%;
+    }
+}
+
+.shape7 {
+    background-image: url("grass.jpg");
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation-name: rotation1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
