@@ -1,0 +1,257 @@
+body {
+    background-image: url("galaxy.jpeg");
+}
+
+
+.shapes {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.shape1 {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 0, 0);
+}
+
+.shape2 {
+    position: relative;
+    width: 100px;
+    height: 90px;
+  }
+  .shape2:before,
+  .shape2:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  .shape2:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+
+
+
+.shape3 {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: red;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+  }
+  .shape3:before {
+    border-bottom: 80px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  .shape3:after {
+    position: absolute;
+    display: block;
+    color: red;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid red;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
+
+
+ .shape4 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+  }
+
+
+.shape5 {
+    width: 200px;
+    height: 100px;
+    background: red;
+    border-radius: 100px / 50px;
+  }
+
+h1 {
+    font-family: "gigantic", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(226, 43, 211);
+    margin-bottom: 100px;
+}
+
+h4 {
+    font-size: 2rem;
+    color: white;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-family: "brevia", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    }
+
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.square1 {
+    background-color: red;
+    min-width: 100px;
+    max-width: 200px;
+    height: 100px;
+}
+
+.square2 {
+    background-color: red;
+    min-width: 100px;
+    max-width: 200px;
+    height: 100px;
+}
+
+.square3 {
+    background-color: red;
+    min-width: 100px;
+    max-width: 200px;
+    height: 100px;
+}
+
+.square4 {
+    background-color: red;
+    min-width: 100px;
+    max-width: 200px; 
+    height: 100px;
+}
+
+.square5 {
+    background-color: red;
+    min-width: 100px;
+    max-width: 200px;
+    height: 100px;
+}
+
+.square6 {
+    background-color: red;
+    min-width: 100px;
+    max-width: 200px;
+    height: 100px;
+}
+
+.square7 {
+    background-color: red;
+    min-width: 100px;
+    max-width: 200px;
+    height: 100px;
+}
+
+
+    @media screen and (min-width: 1000px) {
+        body {
+            background-color: aqua;
+            background-image: none;
+        }
+        
+        
+        .shapes {
+            display: none; 
+            /* flex-direction: row;
+            justify-content: space-around; */
+        }
+        
+        h1 {
+            font-family: "gigantic", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 8rem;
+            text-align: center;
+            color: white;
+            margin-bottom: 100px;
+            font-family: "droog", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+        h4 {
+            font-size: 2rem;
+            color: blue;
+            text-align: justify;
+            justify-content: center;
+            align-items: center;
+            font-family: "brevia", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            }
+
+    }
+
+    @media screen and (max-width: 700px) {
+        body {
+            background-color: pink;
+            background-image: none;
+        }
+        
+        
+        .shapes {
+            display: flex; 
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        h1 {
+            font-family: "gigantic", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            font-size: 20rem;
+            text-align: center;
+            color: white;
+            margin-bottom: 100px;
+            font-family: 'Sassy Frass', cursive;
+        }
+        h4 {
+            font-size: 2rem;
+            color: black;
+            text-align: justify;
+            justify-content: center;
+            align-items: center;
+            font-family: "brevia", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+            }
+
+    }
+
