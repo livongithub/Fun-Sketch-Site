@@ -252,7 +252,7 @@ h4 {
             font-family: "gigantic", sans-serif;
             font-weight: 900;
             font-style: normal;
-            font-size: 20rem;
+            font-size: 5rem;
             text-align: center;
             color: white;
             margin-bottom: 100px;
@@ -271,6 +271,7 @@ h4 {
 
             .sqaures>* {
                 background-color: blueviolet;
+                min-width: 200px;
             }
     }
 
