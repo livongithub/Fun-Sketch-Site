@@ -182,6 +182,11 @@ h4 {
 
 
     @media screen and (min-width: 1000px) {
+
+        html {
+            font-size: 62.5%;
+        }
+
         body {
             background-color: aqua;
             background-image: none;
