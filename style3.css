@@ -222,6 +222,14 @@ h4 {
             font-style: italic;
             }
 
+            .squares {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                flex-shrink: 1;
+                flex-grow: 1;
+            }
+
     }
 
     @media screen and (max-width: 700px) {
@@ -230,6 +238,9 @@ h4 {
             background-image: none;
         }
         
+        .shapes > * {
+            background-color: blue;
+        }
         
         .shapes {
             display: flex; 
@@ -258,5 +269,8 @@ h4 {
             font-style: italic;
             }
 
+            .sqaures>* {
+                background-color: blueviolet;
+            }
     }
 
