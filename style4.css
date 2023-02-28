@@ -1,0 +1,17 @@
+.changeBackground {
+    width: 200px; 
+    height: 200px;
+    background-color: coral;
+}
+
+.changeDiv {
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+}
+
+.changeText {
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+}
