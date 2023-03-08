@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    background: rgb(255, 0, 128);
+    padding: 10px;
+}
+
+p {
+    margin: 100px;
+    font-size: 35px;
+    font: Georgia;
+    color: hotpink;
+    background-color: aqua;
+    padding: 150px;
+    border-radius: 10%;
+    text-align: center;
+    line-height: 60px;
+    filter: drop-shadow(0 -6mm 4mm rgb(255, 3, 3));
+}
+
+span {
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;;
+}

@@ -3,6 +3,7 @@
 let numberOneVar = 0 
 let numberTwoVar = 0 
 let numberThreeVar = 0 
+let numberVar = 0
 
 let buttonOneBool = false 
 let buttonTwoBool = false 
@@ -13,7 +14,9 @@ let buttonThreeBool = false
 let changeBackground = document.getElementById("changeBackground")
 let changeDiv = document.getElementById("changeDiv")
 let changeText = document.getElementById("changeText")
+
 let title = document.getElementById("title")
+
 let bodyText = document.getElementById("bodyText")
 
 
@@ -40,6 +43,11 @@ changeBackground.addEventListener('click', ()=>{
           else {
             document.body.style.backgroundColor = "rgb(204, 0, 204)"
           }
+
+           numberVar= numberOneVar + numberThreeVar + numberTwoVar
+
+           title.innerHTML = "grand total  " + numberVar 
+
 })
 
 
@@ -69,6 +77,12 @@ changeDiv.addEventListener ("click", ()=>{
             changeDiv.style.height = "200px"
             changeDiv.style.borderRadius = "10px"
         }
+
+         numberVar= numberOneVar + numberThreeVar + numberTwoVar
+
+         title.innerHTML = "grand total  " + numberVar 
+
+
 })
 
 
@@ -94,11 +108,14 @@ changeText.addEventListener ("click", ()=>{
             changeText.append("")
             bodyText.append("")
           } 
+
+           numberVar= numberOneVar + numberThreeVar + numberTwoVar
+
+           title.innerHTML = "grand total  " + numberVar 
+
 })
+
 
 // adding up the variables 
 
-let numberVar = numberOneVar + numberTwoVar + numberThreeVar
 
-
-title.innerHTML = "the buttons have been clicked   " + numberVar + "   times"
