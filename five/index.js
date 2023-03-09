@@ -1,3 +1,10 @@
+// fetching the CSS 
+
+let nounSpan = document.getElementsByClassName('noun')
+let verbSpan = document.getElementById('verb')
+let adjectiveSpan = document.getElementById('adjective')
+let eventSpan = document.getElementById('event')
+
 // setting arrays 
 
 let nounArray = ['flower', 'drying rack', 'apple', 'rose', 'sunscreen', 'rat', 'dog', 'cat', 'ring']
@@ -16,12 +23,6 @@ let verbCounter = 0
 let adjectiveCounter = 0 
 let eventCounter = 0 
 
-// fetching the CSS 
-
-let nounSpan = document.getElementsByClassName('noun')
-let verbSpan = document.getElementById('verb')
-let adjectiveSpan = document.getElementById('adjective')
-let eventSpan = document.getElementById('event')
 
 // creating the event 
 
