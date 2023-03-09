@@ -8,6 +8,7 @@ let adjectiveArray = ['bald', 'agreable', 'mysterious', 'gentle', 'helpless', 'n
 console.log(adjectiveArray[7])
 let eventArray = ['they fell', 'they got their makeup done', 'they commited arson', 'the sun exploded', 'their car broke down', 'the moon crashed onto earth']
 console.log(eventArray[1])
+
 // setting counters 
 
 let nounCounter = 0 
