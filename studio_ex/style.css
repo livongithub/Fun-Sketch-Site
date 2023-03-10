@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+
+#data-output {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#data-output>* {
+    display: flex;
+    flex-direction: column;
+}
+
+    img {
+        width: 100px;
+    }
+
+    img:hover {
+        -webkit-transform: rotate(350deg);
+    }
+

@@ -29,12 +29,14 @@ let eventCounter = 0
 nounSpan.addEventListener("click", ()=> {
 
     nounSpan.innerHTML = nounArray[nounCounter]
-    nounCounter ++ 
+    nounCounter++ 
 
     if (nounCounter > nounArray.length -1){
         nounCounter = 0 
     }
 })
+
+
 
 
 verbSpan.addEventListener("click", ()=> {
